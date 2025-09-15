@@ -40,7 +40,7 @@ class Solution {
         if(ns.equals("") || ns.equals("-")){
             return(0);
         }
-        System.out.println(ns);
+        
         BigInteger value = new BigInteger(ns);
         if(value.compareTo(BigInteger.valueOf(Integer.MAX_VALUE)) > 0){
             return(Integer.MAX_VALUE);
